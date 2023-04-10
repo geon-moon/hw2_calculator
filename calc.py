@@ -40,10 +40,8 @@ def main():
             print("Second Number")
             y = float(input())
             print("answer : ", div(x,y))
-        elif check>5:
+        elif check>4:
             print("Unsupported")
-        else:
-            print("Thank you")
 
 if __name__ == "__main__":
     main()
